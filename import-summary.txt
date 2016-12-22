@@ -1,0 +1,80 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\activitylauncher.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* descriptions\
+* descriptions\description_af_ZA.txt
+* descriptions\description_ar_SA.txt
+* descriptions\description_ca_ES.txt
+* descriptions\description_da_DK.txt
+* descriptions\description_de_CH.txt
+* descriptions\description_de_DE.txt
+* descriptions\description_el_GR.txt
+* descriptions\description_en_GB.txt
+* descriptions\description_en_US.txt
+* descriptions\description_es_ES.txt
+* descriptions\description_fi_FI.txt
+* descriptions\description_fr_FR.txt
+* descriptions\description_he_IL.txt
+* descriptions\description_hu_HU.txt
+* descriptions\description_it_IT.txt
+* descriptions\description_ja_JP.txt
+* descriptions\description_ko_KR.txt
+* descriptions\description_nl_NL.txt
+* descriptions\description_no_NO.txt
+* descriptions\description_pl_PL.txt
+* descriptions\description_pt_BR.txt
+* descriptions\description_pt_PT.txt
+* descriptions\description_ro_RO.txt
+* descriptions\description_ru_RU.txt
+* descriptions\description_si_LK.txt
+* descriptions\description_sk_SK.txt
+* descriptions\description_sr_SP.txt
+* descriptions\description_sv_SE.txt
+* descriptions\description_tr_TR.txt
+* descriptions\description_uk_UA.txt
+* descriptions\description_vi_VN.txt
+* descriptions\description_zh_CN.txt
+* ic_launcher-web.png
+* proguard-project.txt
+* rename-dirs.sh
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
